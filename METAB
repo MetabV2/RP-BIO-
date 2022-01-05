@@ -1,0 +1,19 @@
+_G.Bin = true
+while _G.Bin do
+    wait()
+
+game:GetService("ReplicatedStorage").RemoteEvents.R11PNameE11vent:FireServer("RolePlayBio","Moderator")
+wait()
+
+game:GetService("ReplicatedStorage").RemoteEvents.R11PNameE11vent:FireServer("RolePlayBio","Administrator")
+wait()
+
+game:GetService("ReplicatedStorage").RemoteEvents.R11PNameE11vent:FireServer("RolePlayBio","Owner")
+wait()
+
+game:GetService("ReplicatedStorage").RemoteEvents.R11PNameE11vent:FireServer("RolePlayBio","Head Admin")
+wait()
+
+game:GetService("ReplicatedStorage").RemoteEvents.R11PNameE11vent:FireServer("RolePlayBio","Super admin")
+
+end
